@@ -1,0 +1,113 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "services",
+        "patterns": [
+          "Which services do you have?",
+          "What kinds of services are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We provide mental health services ranging from meditation audios, exercises, self-work-based pathways, mood trackers, reading lists, movie recommendations, relatable content (jokes, memes), as well as matching to support groups & peers.",
+          "We also have personalized personality tests that will help you better understand your trauma, and also help you connect with an appropriate therapist."
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "suicide",
+        "patterns": [
+          "I want to die",
+          "I dont want to live anymore",
+          "I feel like giving up on life"
+        ],
+        "responses": [
+          "I'm sorry to hear that you're feeling this way. If you're feeling overwhelmed or hopeless, please know that there are people who can help you. It's important to talk to someone about how you're feeling. You can call a suicide hotline, 9152987821.or speak with a mental health professional. They can help you find ways to cope with your feelings and provide you with the support you need. Remember, you are not alone and there is hope for a better tomorrow.",
+          "If you are feeling like you want to die, it's important that you reach out for help. There are people who care about you and want to support you through this difficult time. You can talk to a trusted friend or family member, or you can reach out to a mental health professional "
+        ]
+      },
+      {
+        "tag": "depression",
+        "patterns": [
+          "I am feeling like I dont want to live.",
+          "I am feeling depressed",
+          "I hate myself and my life"
+        ],
+        "responses": [
+          "I'm sorry to hear that you're feeling this way. If you're feeling overwhelmed or hopeless, please know that there are people who can help you. It's important to talk to someone about how you're feeling. You can call a suicide hotline, 9152987821.or speak with a mental health professional. They can help you find ways to cope with your feelings and provide you with the support you need. Remember, you are not alone and there is hope for a better tomorrow.",
+          "If you are feeling like you want to die, it's important that you reach out for help. There are people who care about you and want to support you through this difficult time. You can talk to a trusted friend or family member, or you can reach out to a mental health professional "
+        ]
+      },
+      {
+        "tag": "low_risk",
+        "patterns": [
+          "I am feeling low",
+          "Feeling like everything is going wrong",
+          "I dont feel OK",
+          "I dont feel happy",
+          "I am not feeling happy"
+        ],
+        "responses": [
+          "Please take a personality test with us so that we can help find a solution for your problem.",
+          "We are sorry to hear that! We have following services which might help you : meditation audios, exercises, self-work-based pathways, mood trackers, reading lists, movie recommendations, relatable content (jokes, memes), as well as matching to support groups & peers."
+        ]
+      },
+      {
+        "tag": "medium_risk",
+        "patterns": [
+          "I am depressed",
+          "I feel unhappy very often",
+          "I want to just die",
+          "I dont feel happy",
+          "I am distressed"
+        ],
+        "responses": [
+          "Please take a personality test with us so that we can help you find a solution that is appropriate for your needs.",
+          "We are sorry to hear that!Please take a personality test with us so that we can help find the right therapist and appropriate service for your needs."
+        ]
+      }
+
+    ]
+  }
